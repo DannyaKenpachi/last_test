@@ -7,6 +7,7 @@ class LoginPage:
         self.password_input = page.locator('#password')
         self.login_button = page.locator('#login')
         self.error_message = page.locator('#errorAlert')
+        self.zagluchka = page.locator('zagluchka')
 
     def navigate(self):
         self.page.goto("https://zimaev.github.io/pom/")
